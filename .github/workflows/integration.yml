@@ -9,7 +9,7 @@ jobs:
         id: selftest
         uses: trinhminhtriet/readme-markgen-action@master
         env:
-          GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.PERSONAL_GITHUB_TOKEN }}
         with:
           template: "test/README.md.tpl"
           writeTo: "test/README.md"
